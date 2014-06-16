@@ -5,6 +5,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.1.1'
 
 group :development, :test do
+  gem 'rb-readline'
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
   gem 'rspec-rails', '2.13.1'
